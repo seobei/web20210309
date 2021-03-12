@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body, html {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        #percent {
+            font-size: 100%;
+            /*부모(body) 요소 기준*/
+        }
+
+        .em {
+            font-size: 0.75em;
+        }
+
+        .rem {
+            font-size: 0.75rem;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit amet abab.</p>
+    <p id="percent">Lorem ipsum dolor sit amet abab.</p>
+    <p class="em">Lorem ipsum dolor sit amet abab.</p>
+    <div class="em">
+        <p class="em">Lorem ipsum dolor sit amet abab.</p>
+    </div>
+    <div class="rem">
+        <p class="rem">Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+</body>
+
+</html>

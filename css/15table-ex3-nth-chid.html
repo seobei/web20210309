@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        p:nth-child(1) {
+            background-color: blue;
+        }
+        p:nth-child(2) {
+            background-color: green;
+        }
+        p:nth-child(odd) {
+            text-decoration: underline;
+        }
+        p:nth-child(even) {
+            font-weight: bold;
+        }
+        table,th,td {
+            border: 1px solid black;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            height: 30px;
+        }
+        tr:nth-child(odd) {
+            background-color: #ccc;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Facilis pariatur earum natus dolorum!</p>
+        <p>Doloremque commodi ullam consequatur illo.</p>
+        <p>Hic atque voluptate tempore omnis?</p>
+        <p>Explicabo commodi sequi pariatur libero.</p>
+    </div>
+<!-- table>tr>th*3>lorem5^^tr*4>td*3>lorem1 -->
+<table>
+    <tr>
+        <th>Lorem ipsum dolor sit amet.</th>
+        <th>Voluptas architecto repellendus mollitia non?</th>
+        <th>Aliquid beatae quidem odit veniam?</th>
+    </tr>
+    <tr>
+        <td>Lorem.</td>
+        <td>Consequuntur?</td>
+        <td>Deserunt?</td>
+    </tr>
+    <tr>
+        <td>Lorem.</td>
+        <td>Deleniti!</td>
+        <td>Tempore!</td>
+    </tr>
+    <tr>
+        <td>Lorem.</td>
+        <td>Labore.</td>
+        <td>Qui?</td>
+    </tr>
+    <tr>
+        <td>Lorem.</td>
+        <td>Vero!</td>
+        <td>Molestias?</td>
+    </tr>
+</table>
+</body>
+
+</html>

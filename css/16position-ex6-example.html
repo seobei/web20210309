@@ -23,13 +23,31 @@
             list-style-type: none;
             display: none;
         }
+        .select {
+            padding: 0px;
+            margin: 0px;
+            position: absolute;
+            top: -5px;
+            left: 195px;
+            list-style-type: none;
+            display: none;
+        }
         .sub > li {
             box-sizing: border-box;
             width: 200px;
             height: 100px;
             border: 5px solid blue;
         }
+        .select > li {
+            box-sizing: border-box;
+            width: 200px;
+            height: 100px;
+            border: 5px solid red;
+        }
         .main>li:hover>.sub {
+            display: block;
+        }
+        .main>li:hover>.select {
             display: block;
         }
     </style>
@@ -47,7 +65,7 @@
             </ul>
         </li>
         <li>Aliquam.
-            <ul class="sub">
+            <ul class="select">
                 <li>Lorem.</li>
                 <li>Totam?</li>
                 <li>Quae.</li>
@@ -55,15 +73,7 @@
                 <li>Tempore?</li>
             </ul>
         </li>
-        <li>Magnam.
-            <ul class="sub">
-                <li>Lorem.</li>
-                <li>Totam?</li>
-                <li>Quae.</li>
-                <li>Expedita.</li>
-                <li>Tempore?</li>
-            </ul>
-        </li>
+        <li>Magnam.</li>
         <li>Sint?</li>
         <li>Unde?</li>
     </ul>

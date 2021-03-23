@@ -1,10 +1,13 @@
+  
 {
+
 	"my html":{
 		"prefix": "aa",
 		"body": [
 			"<!DOCTYPE html>",
-			"<html>", 
+			"<html>",
 			"<head>",
+			"<link rel=\"stylesheet\" href=\"../css/all.min.css\">",
 			"<style>",
 			"</style>",
 			"</head>",

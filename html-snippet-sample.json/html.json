@@ -1,13 +1,13 @@
-  
 {
-
-	"my html":{
+	"my html": {
 		"prefix": "aa",
 		"body": [
 			"<!DOCTYPE html>",
 			"<html>",
 			"<head>",
 			"<link rel=\"stylesheet\" href=\"../css/all.min.css\">",
+			"<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js\">",
+			"</script>",
 			"<style>",
 			"</style>",
 			"</head>",
